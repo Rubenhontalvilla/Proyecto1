@@ -1,4 +1,8 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <string name="msj_hola">Msj Hola</string>
+    <string name="app_name" translatable="false"></string>
+    <string name="Usuario">User</string>
+    <string name="Contraseña">Password</string>
+    <string name="Recordar_contraseña">Remember password</string>
+    <string name="Entrar">Login</string>
+    <string name="Registrarse">Sign in</string>"
 </resources>

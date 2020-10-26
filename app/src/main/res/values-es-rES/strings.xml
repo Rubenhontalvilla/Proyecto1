@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"></string>
+    <string name="Usuario">Usuario</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="Recordar_contraseña">Recordar contraseña</string>
+    <string name="Entrar">Entrar</string>
+    <string name="Registrarse">Sign up</string>
+</resources>
