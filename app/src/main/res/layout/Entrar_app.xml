@@ -5,59 +5,86 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="154dp"
-        android:layout_height="50dp"
-        android:text="Entrar"
-        tools:layout_editor_absoluteX="139dp"
-        tools:layout_editor_absoluteY="519dp" />
+    <LinearLayout
+        android:layout_width="305dp"
+        android:layout_height="57dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="222dp">
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="154dp"
+        <EditText
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text="Introduce tu e-mail" />
+    </LinearLayout>
+
+    <LinearLayout
+        
+        android:layout_width="302dp"
+        android:layout_height="82dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="315dp">
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Recordar_contraseña" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="295dp"
         android:layout_height="53dp"
-        android:text="REGISTRARSE"
-        tools:layout_editor_absoluteX="139dp"
-        tools:layout_editor_absoluteY="608dp" />
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="453dp">
 
-    <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="RECORDAR CONTRASEÑA"
-        tools:layout_editor_absoluteX="107dp"
-        tools:layout_editor_absoluteY="439dp" />
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Entrar" />
+    </LinearLayout>
 
-    <EditText
-        android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textEmailAddress"
-        android:text="INTRODUCE TU E-MAIL"
-        tools:layout_editor_absoluteX="107dp"
-        tools:layout_editor_absoluteY="255dp" />
+    <LinearLayout
+        android:layout_width="295dp"
+        android:layout_height="53dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="540dp">
 
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPassword"
-        tools:layout_editor_absoluteX="108dp"
-        tools:layout_editor_absoluteY="343dp" />
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Registrarse" />
+    </LinearLayout>
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="255dp"
-        android:layout_height="110dp"
-        android:background="#FFFFFF"
-        app:srcCompat="@drawable/large_bytekarma"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="120dp"
-        tools:srcCompat="@drawable/large_bytekarma" />
+    <LinearLayout
+        android:layout_width="298dp"
+        android:layout_height="179dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="31dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/large_bytekarma" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

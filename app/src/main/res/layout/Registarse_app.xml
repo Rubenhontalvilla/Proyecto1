@@ -7,86 +7,127 @@
     android:background="#FFFFFF"
     tools:context=".Activity2">
 
-    <EditText
-        android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textEmailAddress"
-        android:text="E-mail"
-        tools:layout_editor_absoluteX="97dp"
-        tools:layout_editor_absoluteY="318dp" />
+    <LinearLayout
+        android:layout_width="191dp"
+        android:layout_height="49dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="62dp">
 
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPassword"
-        tools:layout_editor_absoluteX="97dp"
-        tools:layout_editor_absoluteY="422dp" />
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Nombre" />
+    </LinearLayout>
 
-    <EditText
-        android:id="@+id/editTextTextPassword2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPassword"
-        tools:layout_editor_absoluteX="97dp"
-        tools:layout_editor_absoluteY="536dp" />
+    <LinearLayout
+        android:layout_width="194dp"
+        android:layout_height="55dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="125dp">
 
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Nombre"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="85dp" />
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Apellidos" />
+    </LinearLayout>
 
-    <EditText
-        android:id="@+id/editTextTextPersonName2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Apellido"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="158dp" />
+    <LinearLayout
+        android:layout_width="197dp"
+        android:layout_height="47dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="205dp">
 
-    <EditText
-        android:id="@+id/editTextTextPersonName3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Nombre de Usuario"
-        tools:layout_editor_absoluteX="97dp"
-        tools:layout_editor_absoluteY="232dp" />
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Nombre Usuario" />
+    </LinearLayout>
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Contraseña"
-        tools:layout_editor_absoluteX="97dp"
-        tools:layout_editor_absoluteY="390dp" />
+    <LinearLayout
+        android:layout_width="199dp"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="276dp">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Repite la contraseña"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="491dp" />
+        <EditText
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text="Introduce tu e-mail" />
+    </LinearLayout>
 
-    <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="He leido y acepto la politica de privacidad"
-        tools:layout_editor_absoluteX="97dp"
-        tools:layout_editor_absoluteY="603dp" />
+    <LinearLayout
+        android:layout_width="206dp"
+        android:layout_height="55dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="353dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Introduce la contraseña" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="205dp"
+        android:layout_height="55dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="437dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Repite la contraseña"
+            tools:layout_editor_absoluteX="-37dp"
+            tools:layout_editor_absoluteY="339dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="199dp"
+        android:layout_height="58dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="524dp">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Entrar" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

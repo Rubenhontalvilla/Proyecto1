@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name" translatable="false"></string>
-    <string name="Usuario">User</string>
-    <string name="Contraseña">Password</string>
-    <string name="Recordar_contraseña">Remember password</string>
-    <string name="Entrar">Login</string>
-    <string name="Registrarse">Sign in</string>"
+    <string name="Usuario">Usuario</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="Recordar_contraseña">Recordar Contraseña</string>
+    <string name="Entrar">Entrar</string>
+    <string name="Registrarse">Registrarse</string>"
+
 </resources>
