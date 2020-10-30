@@ -4,15 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
-    tools:context=".MainActivity">
+    tools:context=".Paginaprincipal">
+
 
     <LinearLayout
         android:layout_width="305dp"
         android:layout_height="57dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="61dp"
-        tools:layout_editor_absoluteY="222dp">
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.277">
 
         <EditText
             android:id="@+id/editTextTextEmailAddress"
@@ -20,16 +24,20 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textEmailAddress"
-            android:text="Introduce tu e-mail" />
+            android:text="@string/Introduce_tu_email" />
     </LinearLayout>
 
     <LinearLayout
-        
+
+        android:id="@+id/linearLayout"
         android:layout_width="302dp"
         android:layout_height="82dp"
+        android:layout_marginTop="124dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="315dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.614"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
         <EditText
             android:id="@+id/editTextTextPassword"
@@ -43,14 +51,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/Recordar_contraseña" />
+
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayout3"
         android:layout_width="295dp"
         android:layout_height="53dp"
+        android:layout_marginTop="236dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="60dp"
-        tools:layout_editor_absoluteY="453dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
         <Button
             android:id="@+id/button3"
@@ -60,11 +73,16 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayout4"
         android:layout_width="295dp"
         android:layout_height="53dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="540dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.953">
 
         <Button
             android:id="@+id/button4"
@@ -74,17 +92,22 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="298dp"
-        android:layout_height="179dp"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="31dp">
+            android:id="@+id/linearLayout2"
+            android:layout_width="298dp"
+            android:layout_height="179dp"
+            android:layout_marginTop="28dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.566"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/large_bytekarma" />
-    </LinearLayout>
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/large_bytekarma"/>
+        </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

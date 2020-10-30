@@ -6,4 +6,11 @@
     <string name="Recordar_contraseña">Recordar contraseña</string>
     <string name="Entrar">Entrar</string>
     <string name="Registrarse">Registrarse</string>
+    <string name="Introduce_tu_email">Introduce tu email</string>
+    <string name="apellidos">Apellido</string>
+    <string name="nombre_usuario">Nombre de Usuario</string>
+    <string name="introduce_la_contrase_a">Introduce la contraseña</string>
+    <string name="repite_la_contrase_a">Repite la contraseña</string>
+    <string name="aplicaci_n_o_juego">Aplicacion o juego</string>
+    <string name="resenha_juego">Reseña juego</string>
 </resources>

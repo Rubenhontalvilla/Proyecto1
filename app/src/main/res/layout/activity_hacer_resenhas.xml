@@ -10,8 +10,10 @@
         android:layout_width="305dp"
         android:layout_height="47dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="82dp">
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <EditText
             android:id="@+id/editTextTextPersonName"
@@ -19,15 +21,20 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Aplicación o juego" />
+            android:text="@string/aplicaci_n_o_juego" />
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="312dp"
         android:layout_height="354dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="143dp">
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.725">
 
         <EditText
             android:id="@+id/editTextTextPersonName2"
@@ -36,14 +43,18 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="Escribe la reseña" />
+
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="313dp"
         android:layout_height="57dp"
+        android:layout_marginBottom="32dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="525dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
         <Button
             android:id="@+id/button3"
@@ -51,4 +62,5 @@
             android:layout_height="wrap_content"
             android:text="ENVIAR" />
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
