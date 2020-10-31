@@ -7,23 +7,25 @@
     tools:context=".Registrarse">
 
     <LinearLayout
+        android:id="@+id/linearLayout6"
         android:layout_width="191dp"
         android:layout_height="49dp"
         android:layout_marginTop="316dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout11"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <EditText
-            android:id="@+id/editTextTextEmailAddress"
+            android:id="@+id/Email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:autofillHints=""
             android:ems="10"
-            android:inputType="textEmailAddress"
-            android:text="@string/Introduce_tu_email" />
+            android:hint="@string/Introduce_tu_email"
+            android:inputType="textEmailAddress" />
     </LinearLayout>
 
     <LinearLayout
@@ -32,17 +34,26 @@
         android:layout_height="55dp"
         android:layout_marginTop="392dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout17"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintHorizontal_bias="0.447"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.086"
         tools:ignore="MissingConstraints">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/introducecontrasenha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/introduce_la_contrase_a" />
+
+        <EditText
+            android:id="@+id/tvContrasenha2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
     </LinearLayout>
 
     <LinearLayout
@@ -51,18 +62,27 @@
         android:layout_height="47dp"
         android:layout_marginTop="236dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <EditText
-            android:id="@+id/editTextTextPersonName3"
+            android:id="@+id/etNombreusuario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/nombre_usuario" />
+            android:hint="@string/nombre_usuario"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etresenha"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="@string/apellidos"
+            android:inputType="textPersonName" />
     </LinearLayout>
 
     <LinearLayout
@@ -70,20 +90,27 @@
         android:layout_width="199dp"
         android:layout_height="50dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout17"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.471"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="465dp">
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout11"
+        tools:ignore="MissingConstraints">
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/tvrepetircontrasenha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/repite_la_contrase_a" />
 
         <EditText
-            android:id="@+id/editTextTextPassword"
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -101,15 +128,15 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.71">
+        app:layout_constraintVertical_bias="0.462">
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/etApellido"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/apellidos" />
+            android:hint="@string/apellidos"
+            android:inputType="textPersonName" />
     </LinearLayout>
 
     <LinearLayout
@@ -124,12 +151,12 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/etnombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Nombre" />
+            android:hint="@string/Nombre"
+            android:inputType="textPersonName" />
     </LinearLayout>
 
     <LinearLayout
@@ -146,17 +173,31 @@
         tools:ignore="MissingConstraints">
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/entrar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="entrar2"
             android:text="@string/Entrar" />
 
-        <EditText
-            android:id="@+id/editTextTextPassword2"
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="184dp"
+        android:layout_height="52dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout15"
+        app:layout_constraintVertical_bias="0.486">
+
+        <Spinner
+            android:id="@+id/spinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPassword" />
+            tools:layout_editor_absoluteX="-80dp"
+            tools:layout_editor_absoluteY="172dp" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

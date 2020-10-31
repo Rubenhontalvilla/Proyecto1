@@ -1,17 +1,32 @@
 <resources>
     <string name="app_name" translatable="false"></string>
-    <string name="Usuario">Usuario</string>
-    <string name="Contraseña">Contraseña</string>
-    <string name="Recordar_contraseña">Recordar Contraseña</string>
-    <string name="Entrar">Entrar</string>
-    <string name="Registrarse">Registrarse</string>
-    <string name="Introduce_tu_email">Introduce tu e-mail</string>
-    <string name="apellidos">Apellidos</string>
-    <string name="nombre_usuario">Nombre Usuario</string>
-    <string name="introduce_la_contrase_a">Introduce la contraseña</string>
-    <string name="repite_la_contrase_a">Repite la contraseña</string>
-    <string name="aplicaci_n_o_juego">Aplicación o juego</string>
-    <string name="resenha_juego">reseña o juego</string>
+    <string name="Usuario">User</string>
+    <string name="Contraseña">Password</string>
+    <string name="Recordar_contraseña">Remember password</string>
+    <string name="Entrar">Login</string>
+    <string name="Registrarse">Register</string>
+    <string name="Introduce_tu_email">Email</string>
+    <string name="apellidos">Surname</string>
+    <string name="nombre_usuario">Username</string>
+    <string name="introduce_la_contrase_a">Password</string>
+    <string name="repite_la_contrase_a">Repeat password</string>
+    <string name="Nombre_aplicacion_o_juego">App name or game</string>
+    <string name="resenha_juego">Review</string>
+    <string name="enviar">Send</string>
+    <string name="escribe_la_rese_a">Write the review</string>
+    <string name="a_adir_mas_rese_as">More reviews</string>
+    <string name="Escribe_la_resenha">" Write the review"</string>
+    <string name="Juego">Game</string>
+    <string name="Aplicacion">App</string>
+    <string name="Nombre">Name</string>
+    <string name="App">App</string>
+    <string name="Spinner">Spinner</string>
+    <string name="PaginaPrincipal">Homepage</string>
+    <string name="spinner">Spinner</string>
+    <string name="MisResenhas">Mis Reseñas</string>
+    <string name="HacerResenhas">Do reviews</string>
+    <string name="Ajustes">Settings</string>
+    <string name="Salir">Exit</string>
 
 
 </resources>

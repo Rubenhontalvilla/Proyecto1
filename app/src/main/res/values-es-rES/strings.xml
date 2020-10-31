@@ -11,6 +11,21 @@
     <string name="nombre_usuario">Nombre de Usuario</string>
     <string name="introduce_la_contrase_a">Introduce la contraseña</string>
     <string name="repite_la_contrase_a">Repite la contraseña</string>
-    <string name="aplicaci_n_o_juego">Aplicacion o juego</string>
-    <string name="resenha_juego">Reseña juego</string>
+    <string name="Nombre_aplicacion_o_juego">Nombre aplicacion o juego</string>
+    <string name="resenha_juego">Reseña</string>
+    <string name="enviar">Enviar</string>
+    <string name="escribe_la_rese_a">Escribe la reseña</string>
+    <string name="a_adir_mas_rese_as">Añadir mas reseñas</string>
+    <string name="Escribe_la_resenha">Escribir la reseña</string>
+    <string name="Juego">Juego</string>
+    <string name="App">Aplicación</string>
+    <string name="Aplicacion">Aplicación</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Spinner">Spinner</string>
+    <string name="spinner">Opciones</string>
+    <string name="PaginaPrincipal">Pagina Princiapl</string>
+    <string name="MisResenhas">Mis Reseñas</string>
+    <string name="HacerResenhas">Hacer Reseñas</string>
+    <string name="Ajustes">Ajustes</string>
+    <string name="Salir">Salir</string>
 </resources>

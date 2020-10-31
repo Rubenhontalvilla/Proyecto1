@@ -21,7 +21,8 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="AÑADIR MAS RESEÑAS" />
+            android:onClick="masresenhas"
+            android:text="@string/a_adir_mas_rese_as" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
