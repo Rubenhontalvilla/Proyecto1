@@ -20,8 +20,7 @@ public class Hacer_resenhas extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hacer_resenhas);
 
-        btnjuego = (RadioButton)findViewById(R.id.rbtnjuego);
-        btnaplicacion = (RadioButton)findViewById(R.id.rbtnaplicacion);
+
         etnombre = (EditText)findViewById(R.id.etnombre);
         etresenha = (EditText)findViewById(R.id.etresenha);
         btnenviar = (Button)findViewById(R.id.btnenviar);

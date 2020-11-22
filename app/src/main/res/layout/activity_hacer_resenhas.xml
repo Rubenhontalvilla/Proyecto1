@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:actionBarNavMode="standard"
     tools:context=".Hacer_resenhas">
 
     <LinearLayout
@@ -13,16 +14,17 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.879">
+        app:layout_constraintVertical_bias="0.411">
 
         <EditText
             android:id="@+id/etnombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="@string/Nombre_aplicacion_o_juego"
+            android:hint="@string/Nombre"
             android:inputType="textPersonName" />
     </LinearLayout>
 
@@ -33,10 +35,10 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.565"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.914">
+        app:layout_constraintVertical_bias="0.704">
 
         <EditText
             android:id="@+id/etresenha"
@@ -45,18 +47,17 @@
             android:ems="10"
             android:hint="@string/escribe_la_rese_a"
             android:inputType="textPersonName" />
-
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="313dp"
         android:layout_height="57dp"
-        android:layout_marginBottom="4dp"
+        android:layout_marginBottom="56dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintHorizontal_bias="0.569"
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
@@ -65,30 +66,6 @@
             android:layout_height="wrap_content"
             android:onClick="enviar"
             android:text="@string/enviar" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="313dp"
-        android:layout_height="58dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <RadioButton
-            android:id="@+id/rbtnjuego"
-            android:layout_width="wrap_content"
-            android:layout_height="58dp"
-            android:layout_weight="1"
-            android:text="@string/Juego" />
-
-        <RadioButton
-            android:id="@+id/rbtnaplicacion"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="@string/Aplicacion" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

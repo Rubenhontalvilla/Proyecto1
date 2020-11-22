@@ -24,9 +24,10 @@
     <string name="PaginaPrincipal">Homepage</string>
     <string name="spinner">Spinner</string>
     <string name="MisResenhas">Mis Reseñas</string>
-    <string name="HacerResenhas">Do reviews</string>
+    <string name="HacerResenhas">Do a review</string>
     <string name="Ajustes">Settings</string>
     <string name="Salir">Exit</string>
-
+    <string name="action_ajustes">Ajustes</string>
+    <string name="action_salir">Salir</string>
 
 </resources>

@@ -21,7 +21,6 @@
         </activity>
         <activity android:name=".Hacer_resenhas" />
         <activity android:name=".Mis_resenhas" />
-        <activity android:name=".MenuActionBar" />
     </application>
 
 </manifest>
