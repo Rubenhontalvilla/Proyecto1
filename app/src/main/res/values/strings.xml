@@ -27,7 +27,6 @@
     <string name="HacerResenhas">Do a review</string>
     <string name="Ajustes">Settings</string>
     <string name="Salir">Exit</string>
-    <string name="action_ajustes">Ajustes</string>
-    <string name="action_salir">Salir</string>
+
 
 </resources>

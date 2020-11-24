@@ -21,7 +21,6 @@ public class Registrarse extends AppCompatActivity {
      TextView repetircontrasenha;
      Button registrar;
 
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registrarse);
