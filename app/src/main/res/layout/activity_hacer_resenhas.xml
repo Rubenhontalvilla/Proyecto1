@@ -42,7 +42,7 @@
 
         <EditText
             android:id="@+id/etresenha"
-            android:layout_width="321dp"
+            android:layout_width="match_parent"
             android:layout_height="59dp"
             android:ems="10"
             android:hint="@string/escribe_la_rese_a"

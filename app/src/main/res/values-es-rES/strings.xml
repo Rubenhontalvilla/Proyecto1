@@ -28,4 +28,6 @@
     <string name="HacerResenhas">Hacer Reseñas</string>
     <string name="Ajustes">Ajustes</string>
     <string name="Salir">Salir</string>
+    <string name="rb_hombre"></string>
+    <string name="rb_mujer"></string>
 </resources>

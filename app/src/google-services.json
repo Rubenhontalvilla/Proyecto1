@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1020065660501",
+    "project_id": "opinafilm-e6199",
+    "storage_bucket": "opinafilm-e6199.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020065660501:android:224edc48daf075c46ededc",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020065660501-t50j61vet3m0jmt4jefao2u1tpnn2s0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1KmNsIQ1fEA_wa17Rh6VgPmue7K__eeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020065660501-t50j61vet3m0jmt4jefao2u1tpnn2s0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

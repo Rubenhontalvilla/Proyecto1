@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -20,6 +21,9 @@ public class Registrarse extends AppCompatActivity {
      TextView contrasenha;
      TextView repetircontrasenha;
      Button registrar;
+     RadioButton rb_hombre;
+     RadioButton rb_mujer;
+
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,11 +31,19 @@ public class Registrarse extends AppCompatActivity {
 
         etnombre = (EditText)findViewById(R.id.etnombre);
         etApellido = (EditText)findViewById(R.id.etApellido);
-        opciones= (Spinner)findViewById(R.id.spinner);
+        rb_hombre = (RadioButton) findViewById(R.id.rb_hombre);
+        rb_mujer =  (RadioButton) findViewById(R.id.rb_mujer);
         NombreUsuario = (EditText)findViewById(R.id.etNombreusuario);
         contrasenha = (EditText)findViewById(R.id.tvContrasenha2);
         repetircontrasenha = (EditText)findViewById(R.id.tvContrasenha2);
         registrar = (Button)findViewById(R.id.entrar);
+
+
+
+
+
+
+
 
 
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResources(this, R.array.opciones, android.R.layout.simple_spinner_item);

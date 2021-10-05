@@ -23,10 +23,12 @@
     <string name="Spinner">Spinner</string>
     <string name="PaginaPrincipal">Homepage</string>
     <string name="spinner">Spinner</string>
-    <string name="MisResenhas">Mis Reseñas</string>
+    <string name="MisResenhas">My reviews</string>
     <string name="HacerResenhas">Do a review</string>
     <string name="Ajustes">Settings</string>
     <string name="Salir">Exit</string>
+    <string name="rb_hombre">Hombre</string>
+    <string name="rb_mujer">Mujer</string>
 
 
 </resources>

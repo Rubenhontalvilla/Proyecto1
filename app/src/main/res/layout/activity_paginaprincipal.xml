@@ -13,10 +13,10 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintHorizontal_bias="0.632"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
-        app:layout_constraintVertical_bias="0.277">
+        app:layout_constraintVertical_bias="0.655">
 
         <EditText
             android:id="@+id/Email"
@@ -32,7 +32,7 @@
         android:id="@+id/linearLayout"
         android:layout_width="302dp"
         android:layout_height="82dp"
-        android:layout_marginTop="124dp"
+        android:layout_marginTop="172dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.614"
@@ -59,7 +59,7 @@
         android:id="@+id/linearLayout3"
         android:layout_width="295dp"
         android:layout_height="53dp"
-        android:layout_marginTop="236dp"
+        android:layout_marginTop="300dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.577"
@@ -81,10 +81,10 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintHorizontal_bias="0.577"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
-        app:layout_constraintVertical_bias="0.953">
+        app:layout_constraintVertical_bias="0.817">
 
         <Button
             android:id="@+id/btnregistrar"
